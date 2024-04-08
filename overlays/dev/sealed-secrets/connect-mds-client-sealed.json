@@ -1,0 +1,21 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "connect-mds-client",
+    "namespace": "confluent-dev",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "connect-mds-client",
+        "namespace": "confluent-dev",
+        "creationTimestamp": null
+      }
+    },
+    "encryptedData": {
+      "bearer.txt": "AgBjJQ0sPr9ju7kQLA2+P6y9PU3+az+7btzIvgHPs4aXV8FycG3qPruFoSlfMJB74tyiSLKfeItYWNJmV0ANpMv34J9WPTrbTbGRw98hyOM7CHXv99hnNmn++4cyTc3aj+ph0SXPnDOFu4zHSJ0rcNMsaREaXiMkBNj8+wV6Z7wWpuHASo24OlOBurYHCBr8zMJRfUb7pVwQ/aZs2AN9zpsBbO3n3eW/itDm+Ra6qCeN8csknUT5xSH2Ku7bgj9VMXgWJ0yx8rfl08rykyJe/M8KucXrqRE7S8MtMC9ANNptLOkCFB/6Nurltw74LEwpPapccTJIGZr3jVMGZSw7yHHdRX5xEGEX3nPbsgassVpVGF4vt3hE44N3x2jfboHBoaTQvtt/WowaPv/OHIyHES2peqNyxhbDsRcy9Fv3v5IHt2LZ8ZcUNNygKroPGxHhdb8SugbUvy8FAOUpxWtfRUw6mvrFifHKQauEzeFlWwrYsOwIkwiA62kXamb8XN9T2VPmL1QkWEauc9CvGn1HLpO3kHX+dIeUj/arYpc+62R2p0cYXMau6okR2o8ipljkmjgFPOlNG8Sdmjtw1whmWBV4CupSA6AaaMCvZtAlwPWPjDtZfI2/t5T1KQzJ6Srjv86ofbsRLFbtW0UIyGNJBSjH75eVcV0Lw6gXKTBFO5pQZ0tMFz0AvMLLPSusxPLfngmcvk/aJ0pguRbHhteLtv2ITs93jmauYq4j8JzMeYOJcDbU2ryY6JeGEA=="
+    }
+  }
+}
